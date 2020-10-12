@@ -25,4 +25,5 @@ class SumSquareDifference
   def differnce
     sum(number) - square(number)
   end
+  
 end 
