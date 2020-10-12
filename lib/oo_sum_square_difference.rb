@@ -1,6 +1,6 @@
 # Implement your object-oriented solution here!
 class SumSquareDifference
-  attr_accessor :number, :differnce
+  attr_accessor :number, :difference
   
   def initialize(number)
     @number = number
@@ -22,7 +22,7 @@ class SumSquareDifference
     square
   end 
   
-  def differnce
+  def difference
     sum(number) - square(number)
   end
   
