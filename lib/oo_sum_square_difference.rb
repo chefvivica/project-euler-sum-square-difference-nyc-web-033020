@@ -1,12 +1,15 @@
 # Implement your object-oriented solution here!
 class SumSquareDifference
-  def initialize
-    @sum = sum 
-    @square = square
+  attr_accessor :number, :differnce
+  
+  
+  def initialize(number)
+    @number = number
   end 
   
-  def differnce 
-    
+  def sum_squares(number)
+    (i..number).each |i| do 
+      i**i
   end 
   
   def sum 
