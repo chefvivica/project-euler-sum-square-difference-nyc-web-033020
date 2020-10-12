@@ -8,7 +8,7 @@ class SumSquareDifference
   
   def sum(number)
     sum = 0
-    (i..number).each do |i|
+    (1..number).each do |i|
       sum += i
     end
     sum**2 
@@ -16,7 +16,7 @@ class SumSquareDifference
   
   def square(number)
     square = 0 
-    (i..number).each do |i| 
+    (1..number).each do |i| 
       square += i**2
     end 
     square
