@@ -23,6 +23,6 @@ class SumSquareDifference
   end 
   
   def differnce
-    self.sum - self.square
+    sum(number) - square(number)
   end
 end 
